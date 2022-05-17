@@ -44,7 +44,25 @@
             });
         });
     </script>
-
+    <script type="text/javascript">
+        $(document).ready(function() {
+            if (window.innerWidth < 768) {
+                $(".bg-photo").hide();
+                console.log("resized!")
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        $(window).resize(function() {
+            if (window.innerWidth < 728) {
+                $(".bg-photo").hide();
+                console.log("resized to hide!")
+            } else {
+                $(".bg-photo").show();
+                console.log("resized to show!")
+            }
+        });
+    </script>
 </head>
 
 <body class="website-background-black">
@@ -63,7 +81,6 @@
                         <div class="animate delay08 toggle-mobile-first">Jos</div>
                     </div>
                 </h1>
-                <p>Drawing by ViV_Shin#0404</p>
             </div>
         </div>
         <div class="tap-indication">Tap anywhere</div>
@@ -90,7 +107,6 @@
                         <div class="animate text-color-red on-hover-40 delay08 hide-mobile toggle-mobile-second">Contact</div>
                     </a>
                 </div>
-                <p>Drawing by ViV_Shin#0404</p>
             </h1>
         </div>
     </div>
