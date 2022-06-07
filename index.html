@@ -49,6 +49,9 @@
             if (window.innerWidth < 768) {
                 $(".bg-photo").hide();
                 console.log("resized!")
+            } else {
+                $(".bg-photo").show();
+                console.log("resized to show!")
             }
         });
     </script>
@@ -63,6 +66,7 @@
             }
         });
     </script>
+    
 </head>
 
 <body class="website-background-black">
@@ -111,7 +115,15 @@
         </div>
     </div>
     <div class="bg-photo"></div>
-
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+    kofiWidgetOverlay.draw('jossydev', {
+        'type': 'floating-chat',
+        'floating-chat.donateButton.text': 'Support me',
+        'floating-chat.donateButton.background-color': '#323842',
+        'floating-chat.donateButton.text-color': '#fff'
+    });
+    </script>
 </body>
 
 </html>

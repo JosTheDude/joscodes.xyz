@@ -1,3 +1,5 @@
+/* Mani in NANO */
+
 @font-face {
     font-family: 'Regular';
     src: url('../fonts/Graphik-Regular.eot');
@@ -654,7 +656,7 @@ video {
     top: 0;
     right: 0;
     bottom: 0;
-    left: 53%;
+    left: 56%;
     height: 100%;
     width: 50%;
     background-image: url(../img/HomeImg.png);
@@ -670,6 +672,9 @@ video {
     -moz-animation-fill-mode: backwards;
     animation-fill-mode: backwards;
 }
+
+/* put the image ../img/HomeImg.png in the background with an animation if the user is on desktop */
+
 
 @media screen and (max-width: 767px) {
     .bg-photo {
