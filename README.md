@@ -1,5 +1,5 @@
 # joscodes.xyz Website & Code
-My personal portfolio and website's code for public view & for GitHub pages since Apache2 bad 😅
+My personal portfolio and website's code for public view & for GitHub Pages 😅
 
 https://joscodes.xyz
 
