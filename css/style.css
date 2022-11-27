@@ -659,7 +659,7 @@ video {
     left: 56%;
     height: 100%;
     width: 50%;
-    background-image: url(../img/HomeImg.png);
+    background-image: url(../img/HomeImg.webp);
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
