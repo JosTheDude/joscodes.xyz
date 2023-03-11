@@ -613,6 +613,13 @@ video {
     }
 }
 
+/* ------ Contact Page CSS ------ */
+
+.lanyard-contact-info {
+    user-select: none;
+    border:none;
+}
+
 /* ------ Delays ------ */
 
 .delay02 {
