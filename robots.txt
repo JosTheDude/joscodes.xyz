@@ -1,5 +1,4 @@
 # This robots.txt file controls crawling of URLs under https://joscodes.xyz/
 
 User-agent: *
-Allow: /$
-Disallow: /
+Disallow:
