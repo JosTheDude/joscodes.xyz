@@ -452,17 +452,17 @@ video {
 .label-logo:after {
     font-family: "Semibold";
     font-size: 20px;
-    content: "dejan.";
+    content: "jos.";
 }
 
 .label-logo:hover:after {
-    content: "dejan.works";
+    content: "jos.gg";
     white-space: nowrap;
 }
 
 @media screen and (max-width: 767px) {
     .label-logo:hover:after {
-        content: "dejan.";
+        content: "jos.";
     }
 }
 
